@@ -6,15 +6,15 @@
 //  console.log(name)
 // }
 //.......................................
-// Spread Operator in js 
+// Spread Operator in js
 
 // let poorCountry = ['BD', 'India'];
 // let richCountry = [...poorCountry, 'USA', 'China'];
 //  console.log(richCountry)
 
 //.......................................
-// with out Spread Operator concat Arry with push mathod  in js 
-// Push Mathord 
+// with out Spread Operator concat Arry with push mathod  in js
+// Push Mathord
 
 // let poorCountry = ['BD', 'India'];
 // let richCountry = [ 'USA', 'China'];
@@ -31,7 +31,7 @@
 //       sum =  sum + i;
 // }
 
-// console.log(sum); 
+// console.log(sum);
 // }
 
 // Calculation(20, 20,30);
@@ -40,20 +40,20 @@
 // function Calculation( number){
 
 //     let  sum =0;
-    
+
 //     for (let index = 0; index < number; index++) {
 //           sum =  sum + index;
-      
+
 //     }
-//     console.log(sum); 
-    
+//     console.log(sum);
+
 //     }
-    
+
 //     Calculation(20)
 
 //.......................................
 
-// Dynamic Function for Js 
+// Dynamic Function for Js
 
 // var userName =  function(...name){
 //     return name;
@@ -63,7 +63,7 @@
 
 //.................................................
 
-// Variable Scope 2 prokar: 
+// Variable Scope 2 prokar:
 // 1. Global Scope: In the global scope, the variable can be accessed from any  part of the JavaScript code.
 // 2. Local Scope : In the local scope, the variable can be accessed within a function where it is declared.
 
@@ -75,12 +75,12 @@
 //  console.log(roll);
 
 // }
-// console.log('function er bahire ' + roll); 
+// console.log('function er bahire ' + roll);
 // myName();
 
 ///.....................................................
 
-// Variable Hosting for JavaScript: jodi valu age assign kora hoy pore jodi variable declare kora hoy taile Variable Hosgting bola hoy 
+// Variable Hosting for JavaScript: jodi valu age assign kora hoy pore jodi variable declare kora hoy taile Variable Hosgting bola hoy
 
 // name = 'Nahid';
 // console.log(name);
@@ -88,7 +88,7 @@
 
 //......................................................
 
-// For loop js 
+// For loop js
 
 // var i; // Iteration
 
@@ -98,12 +98,56 @@
 
 //...................................
 
-// The for of loop 
+// The for of loop
 
-var myCountry = ['Dhaka ', 'Barishal', 'Khulna', 'Rangpur'];
+// var myCountry = ['Dhaka ', 'Barishal', 'Khulna', 'Rangpur'];
 
-for(let myCity of myCountry){
-    console.log(myCity);
+// for(let myCity of myCountry){
+//     console.log(myCity);
+// }
+
+//..........................................
+// Object for Js ES6
+// protita jinis ei object jemon manus ekta object, computer ekta object, phone ekta object
+// protita object er onek propati thakte pare aber oi propati er onek propati thakte pare tokhon oi propati ke object hisabe dhore thake
+// jemon mune Object hole moanus er hat, pa, nak, kan, sob holo Manush object er propaty. ekoi vabe hat ke jodi amra object hisabe dhori taile hat er angul holo propati , hater color holo propaty, aber hater angul ke jodi amra object hisabe
+// dhori taile angul er nok ekta prpaty noker color ekta propaty
+// taile amara bolte pari je ekta object er vitore onek propati thake and oi propatike jodi apni object hisabe colpona koren taile tar vitore aro onek propaty thake ei vabe nestate hoye thake
+// niche amra exam soho dekhbo object and tar propati and nestate
+
+var human = {
+    hane: {
+        color: 'white',
+        Quality: 'Nice',
+        person: 'Girl',
+        fingar: {
+            color: 'White',
+            fingarSize: 'big',
+        },
+        count: '2 Hand',
+        handProblem: false,
+    },
+    kidneys: {
+        kidneyCount: '2',
+        goodKidney: true,
+    },
+    heart: '1 heart',
+
 }
+console.log(human['hane']['color']);
+console.log(human['hane']);
+
+// var uname = 'Anil';
+// var udivision = 'First';
+
+// let user = {
+//     uname,
+//     udivision
+// };
+// console.log(user);
+
+
+
+
 
 
