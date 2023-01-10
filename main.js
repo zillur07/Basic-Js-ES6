@@ -193,6 +193,8 @@
 
 // console.log(eee);
 
+/////////////
+
 // let company = [{
 //     team: {
 //         dev: {
@@ -304,6 +306,30 @@
 
     // }
 
+//................................................................
+
+// ES6 Decision Making
+
+  var data = { dev: {
+                employe: [{
+                        names: 'Sohag',
+                        subject: 'Server Testing '
+                    },
+                    {
+                        names: 'Baky',
+                        subject: 'Help Man'
+                    },
+                    {
+                        names: 'Aslam',
+                        subject: 'Api Testing'
+                    }
+    
+                ],
+    
+            }
+        }
+
+        
 
 
 
