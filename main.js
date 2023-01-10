@@ -115,27 +115,29 @@
 // taile amara bolte pari je ekta object er vitore onek propati thake and oi propatike jodi apni object hisabe colpona koren taile tar vitore aro onek propaty thake ei vabe nestate hoye thake
 // niche amra exam soho dekhbo object and tar propati and nestate
 
-var human = {
-    hane: {
-        color: 'white',
-        Quality: 'Nice',
-        person: 'Girl',
-        fingar: {
-            color: 'White',
-            fingarSize: 'big',
-        },
-        count: '2 Hand',
-        handProblem: false,
-    },
-    kidneys: {
-        kidneyCount: '2',
-        goodKidney: true,
-    },
-    heart: '1 heart',
+// var human = {
+//     hane: {
+//         color: 'white',
+//         Quality: 'Nice',
+//         person: 'Girl',
+//         fingar: {
+//             color: 'White',
+//             fingarSize: 'big',
+//         },
+//         count: '2 Hand',
+//         handProblem: false,
+//     },
+//     kidneys: {
+//         kidneyCount: '2',
+//         goodKidney: true,
+//     },
+//     heart: '1 heart',
 
-}
-console.log(human['hane']['color']);
-console.log(human['hane']);
+// }
+// console.log(human['hane']['color']);
+// console.log(human['hane']);
+// var ok = human['hane']['fingar'];
+// console.log(ok['color']);
 
 // var uname = 'Anil';
 // var udivision = 'First';
@@ -146,9 +148,163 @@ console.log(human['hane']);
 // };
 // console.log(user);
 
-
-
-
-
 //............................................
+// for in loop with Object 
+
+// let laptop = [
+//    { Monitor:{
+//         color: 'Balack',
+//         size: '23.8 in',
+//         quality: 'Good',
+//     },
+//     brand: 'HP',
+//     ownar: 'Zillur',
+//     mobile:{
+//         color: 'green',
+//         size: '6 in',
+//     }
+// },
+// { Monitor:{
+//     color: 'white',
+//     size: '23.8 in',
+//     quality: 'best',
+// },
+// brand: 'Apple',
+// ownar: 'Hidoy',
+// mobile:{
+//     color: 'Black',
+//     size: '6 in',
+// }
+// }
+// ];
+
+// let eee = {
+//     product: laptop
+// }
+
+// // for(let con in laptop){  
+// //     console.log(laptop[con]['Monitor']['color']);  
+// // }
+
+
+// for(let item in eee['product']){  
+//     console.log( eee['product'] [item]['Monitor']['quality']);  
+// }
+
+// console.log(eee);
+
+// let company = [{
+//     team: {
+//         dev: {
+//             employe: [{
+//                     names: 'Sohag',
+//                     subject: 'Server Testing '
+//                 },
+//                 {
+//                     names: 'Baky',
+//                     subject: 'Apps Testing'
+//                 },
+//                 {
+//                     names: 'Aslam',
+//                     subject: 'Api Testing'
+//                 }
+
+//             ],
+
+//         },
+//         apps: {
+
+//             employe: [{
+//                     names: 'Zillur Rahman ',
+//                     subject: 'Api and UI'
+//                 },
+//                 {
+//                     names: 'Habib ',
+//                     subject: 'iso'
+//                 },
+//                 {
+//                     names: 'Hidoy',
+//                     names: 'Api and UI',
+//                 }
+
+//             ],
+
+//         },
+
+//     },
+
+
+
+// },
+
+// {
+//     team: {
+//         dev: {
+//             employe: [{
+//                     names: 'Sohag',
+//                     subject: 'Server Testing '
+//                 },
+//                 {
+//                     names: 'Baky',
+//                     subject: 'Help Man'
+//                 },
+//                 {
+//                     names: 'Aslam',
+//                     subject: 'Api Testing'
+//                 }
+
+//             ],
+
+//         },
+//         apps: {
+
+//             employe: [{
+//                     names: 'Zillur Rahman ',
+//                     subject: 'Api and UI'
+//                 },
+//                 {
+//                     names: 'Habib ',
+//                     subject: 'iso'
+//                 },
+//                 {
+//                     names: 'Hidoy',
+//                     names: 'Api and UI',
+//                 }
+
+//             ],
+
+//         },
+
+//     },
+
+
+
+// }
+
+
+// ]
+
+    // for(let i in company){
+    //     const index = company[i]['team']['dev']['employe'].map(function(e){return e.names;}).indexOf('Baky');
+    //     console.log(company[i]['team']['dev']['employe'][index]['subject']);
+    //     // console.log(index)
+
+    // }
+
+    //   for(let i in company){
+    //    // const index = company[i]['team']['dev']['employe'].map(function(e){return e.names;});
+    //    const gg = company[i]['team']['apps']['employe'].map(function(k) {return k.names+1});
+    //    //console.log(gg);
+    //     // console.log(index)
+        
+    //     for (let value of gg) {
+    //         // value += 1;
+    //         console.log(value);
+    //       }
+
+    // }
+
+
+
+
 
