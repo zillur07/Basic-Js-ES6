@@ -310,27 +310,96 @@
 
 // ES6 Decision Making
 
-  var data = { dev: {
-                employe: [{
-                        names: 'Sohag',
-                        subject: 'Server Testing '
-                    },
-                    {
-                        names: 'Baky',
-                        subject: 'Help Man'
-                    },
-                    {
-                        names: 'Aslam',
-                        subject: 'Api Testing'
-                    }
+//   var data = { dev: {
+//                 employe: [{
+//                         names: 'Sohag',
+//                         subject: 'Server Testing '
+//                     },
+//                     {
+//                         names: 'Baky',
+//                         subject: 'Help Man'
+//                     },
+//                     {
+//                         names: 'Aslam',
+//                         subject: 'Api Testing'
+//                     }
     
-                ],
+//                 ],
     
-            }
-        }
+//             }
+//         }
 
-        
+// ........................................
+// * Function //
+//......................................
+// Simple Function :
+// function myAdd(){
+//     const x = 20;
+//     var y = 30;
+//     let sum = x+y;
+//     console.log(sum);
 
+// }
+// myAdd();
+
+//..............................................
+
+// Parameterzed function
+
+// function myName(name, city){
+//     var address = city + ' ' +name;
+//     console.log(address);
+
+// }
+
+// myName("Zillur" , "Dhaka");
+
+//.........................................
+
+// Rest Parameter : eti emon ekti parameter jar madhome ek sathe onek parameter pathano jay
+// eti lekhar niyom holo (...data) 3 dort dite hoy.
+
+// function x(...data){
+
+// }
+// x(1,6,20,45, 'a')
+
+// function myData(...x){
+//     console.log(x);
+
+// }
+// myData(1,5,80, 'efrkgtjksd')
+
+///..............................
+// Anonymous Function: advantage
+// 1. Afunction without a name 
+// 2. It can be declared dynamically at runtime 
+// // 3. An anonymous function can be assigend within a variable
+
+// let myCity = ['Dhaka', 'Barishal', 'Kashipur'];
+// let youCity = [...myCity, 'Khulna', 'Rongpur']
+// // console.log(youCity);
+
+// var myFun = function(youCity, ...x){
+
+// console.log(x  [0]+ '  ' + youCity);
+// }
+//  myFun( youCity, 100+ ' ', 50+ ' ', 60+ '',);
+
+///......................................................
+// ES6 Arrow Function :
+// 1. To write smaller function syntax 
+// 2. Arrow function make your code more readable and structured 
+// 3. Arrrow function are anonymous function 
+// 4. Can declare without the function keyword 
+// 5. problme : Arrow functions cannot be used as the constructore
+ 
+var myArrow = () => {
+    return 'This function is Arrow function'
+   
+}
+
+console.log(myArrow());
 
 
 
