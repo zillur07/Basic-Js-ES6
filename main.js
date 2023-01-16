@@ -394,12 +394,29 @@
 // 4. Can declare without the function keyword 
 // 5. problme : Arrow functions cannot be used as the constructore
  
-var myArrow = () => {
-    return 'This function is Arrow function'
+// var myArrow = () => {
+//     return 'This function is Arrow function'
    
-}
+// }
 
-console.log(myArrow());
+// console.log(myArrow());
+//..................................................
+
+let arr = [25,12,50, 4];
+let swap; 
+
+for(let i = 0; i< arr.length ; i++){
+    for(let j = i+1; j<arr.length; j++){
+        if(arr[i] > arr[j]){
+            swap = arr[i];
+            arr[i] = arr[j];
+            arr[j] = swap;
+        }
+
+    }
+}
+console.log(arr);
+
 
 
 
